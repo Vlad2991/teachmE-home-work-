@@ -6,127 +6,184 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Open Sans','Raleway';
 
 
+}
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+    
 }
 
 .count {
+ max-width: 1200px;
+ margin: 0 auto;
+
+}
+.column{
     display: flex;
-    max-width: 1170px;
-    margin: 0 auto;
-
-    border-top: none;
-    flex-direction: column;
-    position: relative;
-
+    
 }
 
-.title {
-
+.tabs__{
     display: flex;
-    width: 482.894px;
-    height: 89px;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    margin-left: 84px;
+    
 
-
+   
 }
-
-p {
-    margin-bottom: 10px;
-    padding: 0 0 0 100.68px;
-
+.count__left__right{
+    display: flex;
+    border: 1px solid #aaa4a438;
 }
-
-h1 {
-    color: #000;
-    font-family: "Open Sans";
-    font-size: 24px;
-    font-style: normal;
+.text{
+    padding: 55px 35px 50px 100px;
+}
+h3{
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-size: 30px;
     font-weight: 700;
-    line-height: normal;
+    line-height: 41px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+.big__text{
+    margin-top: 57px;
+    
+}
+.little__text{
+    margin-top: 26px;
+    
+}
+p {
+    color: rgb(0, 0, 0);
+font-family: 'Raleway';
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0%;
+text-align: left;
 }
 
-h5 {
-    color: #000;
-    font-family: Raleway;
-    font-size: 14px;
-    font-style: normal;
+.box {
+    font-family: 'Open Sans';
     font-weight: 400;
-    line-height: normal;
-}
-
-.tabs__content {
-    margin-top: 100px;
-    position: absolute;
-    width: 482.894px;
-    height: 112px;
-    margin-left: -20px;
-
-}
-
-.tabs__link {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 101px;
-}
-
-.tabs__item {
-    width: 172.116px;
+    font-size: 14px;
+    line-height: 136%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    padding: 10px 82px;
+    width: 203px;
     height: 40px;
-
+    cursor: pointer;
+  
+  
+}
+.box--active{
+    
+    background-color: #FFFFFF;
+    border: 1px solid;
+    border: 1px solid #aaa4a438;
+    border-radius: 5px 5px 0 0;
+    border-bottom: none;
+    padding: 8px 16px 8px 16px;
+    
+   
+    
+}
+.border__botton{
+width: 203px;
+height: 1px;
+background-color: #FFFFFF;
+margin-left: -17px;
+margin-top: 12px;
 }
 
-.tabs__item:nth-child(1) {
-    border-right: 1px solid rgb(0, 0, 0);
-    height: 20px;
-    border-top: 1px solid rgb(0, 0, 0);
-
-}
-
-.tabs__item__big {
-    width: 508.718px;
-    height: 40px;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
+button {
+   
+   
 }
 
 .btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 231.87px;
-    height: 58px;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    background: coral;
-    color: #FFF;
-    font-size: 18px;
-    font-style: normal;
+
+    font-family: 'Open Sans';
     font-weight: 600;
-    line-height: normal;
+    line-height: 139%;
+    text-align: center;
     text-transform: capitalize;
+    color: #FFFFFF;
+    border: 1px solid #aaa4a438;
+    position: absolute;
+    max-width: 270px;
+    text-align: center;
+    padding: 13px 50px;
+    background: #EC7979;
     cursor: pointer;
-    margin-left: 75px;
-    border: none;
-    margin-top: -90px;
+    border-color: aliceblue;
+    margin-top: 84px;
+    cursor: pointer;
+}
+.btn--active{
+  margin-top: 85px;
+  margin-right: 1px;
+  
+}
+.image{
+    width: 470px;
+height: 500px;
+}
+.picture{
+overflow: hidden;
+height: 100%;
+}
+.title{
+    color: rgb(0, 0, 0);
+font-family: Raleway;
+font-size: 36px;
+font-weight: 400;
+line-height: 42px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+margin-top: 82px;
+}
+.sep{
+    border: 1px solid rgb(236, 121, 121);
+    width: 170px;
+height: 0;
+}
+.lou{
+    color: rgb(134, 135, 139);
+font-family: Raleway;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0%;
+text-align: center;
 
 }
-
-.img {
-    display: flex;
-    justify-content: end;
-    margin-left: auto;
-
+.block__price{
+padding: 307px 30px 83px 170;
 }
-
-img {
-    margin-top: -100px;
+.div1{
+    width: 370px;
+height: 60px;
+}
+.div2{
+    width: 369px;
+height: 100px;
+}
+.div3{
+    width: 370px;
+height: 50px;
+}
+.div4{
+    width: 370px;
+height: 50px;
 }
