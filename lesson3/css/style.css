@@ -11,10 +11,12 @@
 
 }
 
+.price__section {
+    background: rgb(245, 245, 245);
+}
+
 .main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
+    background-color: #333333;
 
 
 }
@@ -22,6 +24,7 @@
 .count {
     max-width: 1200px;
     margin: 0 auto;
+
 
 }
 
@@ -167,20 +170,22 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 40px;
 }
 
 .title {
+
     color: rgb(0, 0, 0);
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 36px;
     font-weight: 400;
     line-height: 42px;
     letter-spacing: 0%;
     text-align: center;
     text-transform: uppercase;
-    margin-top: 82px;
-    margin-left: 118px;
+    padding-top: 82px;
+
 }
 
 .sep {
@@ -188,7 +193,7 @@ img {
     border: 1px solid rgb(236, 121, 121);
     width: 170px;
     height: 0;
-    margin-left: 118px;
+
 }
 
 .lou {
@@ -199,7 +204,7 @@ img {
     line-height: 21px;
     letter-spacing: 0%;
     text-align: center;
-    margin-left: 118px;
+
 
 }
 
@@ -207,7 +212,7 @@ img {
     margin-top: 64px;
     display: flex;
     gap: 30px;
-    padding-left: 100px;
+
     padding-bottom: 97px;
 }
 
@@ -283,8 +288,112 @@ img {
     letter-spacing: 0%;
     text-align: center;
     text-transform: capitalize;
+    background-color: white;
 }
 
 .block__price--active {
     margin-top: -25px;
+}
+
+.card__customers {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 83px;
+}
+
+.card {
+    display: flex;
+    width: 370px;
+    position: relative;
+    flex-direction: column;
+}
+
+.name__person {
+
+    padding-top: 68px;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+
+
+
+}
+
+.text__of__card {
+    border-radius: 10px;
+    background: rgb(226, 226, 226);
+    padding: 38px 25px 37px 25px;
+
+}
+
+.vector {
+    position: absolute;
+    width: 30px;
+    height: 20px;
+
+    background: rgb(226, 226, 226);
+    transform: rotate(180.00deg);
+}
+
+.crd__text {
+    color: rgb(134, 135, 139);
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.photo__avatar {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 240px;
+
+}
+
+.peson__names {
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+
+
+}
+
+.photo__of__card {
+    width: 70px;
+    height: 70px;
+}
+
+.text__of__card ::after {
+    position: absolute;
+    content: '';
+    border: 20px solid transparent;
+    border-top: 20px solid rgb(226, 226, 226);
+    top: 58%;
+    left: 20%;
+}
+
+.profession {
+    display: flex;
+    justify-content: center;
+    padding-right: 56px;
+    margin-top: -60px;
+}
+
+.Dav {
+    margin-left: 100px;
+}
+
+.Jay {
+    margin-left: 40px;
+}
+
+.Coop {
+    margin-left: 55px;
 }
