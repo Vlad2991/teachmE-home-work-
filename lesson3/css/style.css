@@ -449,11 +449,14 @@ img {
 }
 
 .header {
-    position: relative;
+    position: fixed;
     display: flex;
     background: rgb(0, 0, 0);
     justify-content: space-between;
     z-index: 3;
+    width: 100%;
+    left: 0;
+    z-index: 5;
 }
 
 .axit__head {
@@ -528,6 +531,7 @@ img {
     font-weight: 400;
     line-height: 21px;
     letter-spacing: 0%;
+    cursor: pointer;
 
 
 }
@@ -611,6 +615,7 @@ img {
     background-color: #EC7979;
     vertical-align: middle;
     display: table-cell;
+    cursor: pointer;
 }
 
 .color-red {
@@ -620,4 +625,202 @@ img {
 
 span {
     white-space: normal;
+}
+
+.social_media {
+    margin-bottom: 100px;
+    background: rgb(248, 239, 239);
+
+}
+
+.social__svg {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+
+}
+
+.social__svg:hover {
+    width: 100px;
+    height: 100px;
+    transition: 0.5s;
+}
+
+.social__icons {
+    display: flex;
+    gap: 44px;
+    align-items: center;
+    padding: 43px;
+
+}
+
+.social__cont {
+    display: flex;
+    justify-content: space-between;
+    height: 140px;
+}
+
+.social__title {
+    padding: 32px 30px 16px 0px;
+}
+
+.social__text p {
+    width: 470px;
+    height: 42px;
+    margin-bottom: 16px;
+
+    color: rgb(134, 135, 139);
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.stilish__count__text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 170px;
+    z-index: 6;
+}
+
+.title__stilish {
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.sep__stilish {
+    margin-bottom: 41px;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+
+.lou__stilish {
+    margin-bottom: 80px;
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.btn__stilish {
+    display: flex;
+    width: 370px;
+    height: 58px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background: none;
+    vertical-align: middle;
+    display: table-cell;
+    color: #FFFFFF;
+    border: 1px solid white;
+    cursor: pointer;
+
+
+}
+
+.stilish {
+    position: relative;
+    background-image: url(../img/banner.png);
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    background-position: center;
+    background-size: contain;
+    background-size: cover;
+    margin-top: 107px;
+}
+
+.stylish::before {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #33333381;
+    position: absolute;
+    content: "";
+    z-index: 1;
+
+}
+
+.stilish::before {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #33333381;
+    position: absolute;
+    content: "";
+    z-index: 1;
+
+
+}
+
+.footer {
+    background-color:
+        rgb(0, 0, 0);
+}
+
+.footer__icon {
+    display: flex;
+    gap: 33px;
+    justify-content: center;
+    align-items: center;
+    padding: 39px 480px 32px 485px;
+
+}
+
+.footer__ground__content {
+    display: flex;
+    padding-bottom: 27px;
+    justify-content: center;
+
+}
+
+img[alt="img__footer"] {
+    width: 53px;
+    height: 53px;
+    cursor: pointer;
+
+
+}
+
+img[alt="img__footer"]:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #14338a;
+    transition: 0.3s;
+
+}
+
+.footer__text {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+
 }
