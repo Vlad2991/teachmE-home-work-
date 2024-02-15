@@ -469,6 +469,14 @@ img {
     z-index: 4;
 }
 
+.axit__list__item:hover {
+    content: "";
+    color: #5265f6;
+    background-color: rgba(7, 7, 7, 0);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
 .AX img {
     width: 102px;
     height: 55px;
@@ -585,6 +593,7 @@ img {
 
 .axit__form {
     padding-left: 50px;
+
 }
 
 .sepr {
