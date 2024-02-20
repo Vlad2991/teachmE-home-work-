@@ -420,7 +420,8 @@ img {
     display: flex;
     gap: 2.81px;
     align-items: center;
-    padding-left: 50px;
+    padding-left: 280px;
+    left: 50%;
 
 }
 
@@ -452,7 +453,7 @@ img {
     position: fixed;
     display: flex;
     background: rgb(0, 0, 0);
-    justify-content: space-between;
+    justify-content: space-around;
     z-index: 3;
     width: 100%;
     left: 0;
@@ -544,12 +545,17 @@ img {
 
 }
 
+.axit__form__grop {
+    position: relative;
+}
+
 .right__part {
     display: flex;
     width: 470px;
     height: 450px;
     background: rgb(255, 255, 255);
     flex-direction: column;
+    border-radius: 10px;
 
 
 }
@@ -569,7 +575,7 @@ img {
     justify-content: center;
 }
 
-.name__column {
+.name__column__form {
     display: flex;
     width: 470px;
     height: 450px;
@@ -609,9 +615,18 @@ img {
 
 }
 
+.btn__axis__count {
+    display: flex;
+    padding-top: 57px;
+
+
+
+
+}
+
 .btn__axis p {
 
-    width: 468.94px;
+    width: 469.94px;
     height: 60px;
     align-items: center;
     color: rgb(255, 255, 255);
@@ -625,6 +640,8 @@ img {
     vertical-align: middle;
     display: table-cell;
     cursor: pointer;
+
+
 }
 
 .color-red {
@@ -831,5 +848,104 @@ img[alt="img__footer"]:hover {
     line-height: 21px;
     letter-spacing: 0%;
     text-align: center;
+
+}
+
+input {
+    height: 40px;
+    border: none;
+    width: 370px;
+
+
+}
+
+label {
+    border: none;
+
+
+}
+
+.form__elements {
+
+
+    width: 370px;
+    padding: 16px;
+    padding-left: 50px;
+
+
+}
+
+.sep__form {
+    width: 370px;
+    height: 1px;
+    border: 1px solid rgb(189, 189, 189);
+}
+
+.contact__us__form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.input__count {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 72px 30px 175px 0px;
+
+}
+
+.form__elements__contact input {
+    width: 571px;
+    
+
+
+}
+
+.text__area {
+    padding: 89px 0px 175px 30px;
+}
+
+.text__area textarea {
+    width: 569px;
+}
+
+.btn__contact__style p {
+    display: flex;
+    width: 370px;
+    height: 58px;
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0%;
+    align-items: center;
+    justify-content: center;
+
+
+
+    text-transform: capitalize;
+    background-color: #EC7979;
+}
+
+#contact__form {
+    position: relative;
+
+}
+
+#btn__absolute {
+    position: absolute;
+    left: 32%;
+    top: 80%;
+
+
+}
+
+.sep__count {
+    width: 571px;
+    border: 1px solid rgb(189, 189, 189);
+    margin-top: 21px;
+
 
 }
