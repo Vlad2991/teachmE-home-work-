@@ -556,6 +556,7 @@ img {
     background: rgb(255, 255, 255);
     flex-direction: column;
     border-radius: 10px;
+    overflow: hidden;
 
 
 }
@@ -618,6 +619,8 @@ img {
 .btn__axis__count {
     display: flex;
     padding-top: 57px;
+    width: 100%;
+    
 
 
 
@@ -640,6 +643,7 @@ img {
     vertical-align: middle;
     display: table-cell;
     cursor: pointer;
+    
 
 
 }
