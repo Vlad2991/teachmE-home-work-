@@ -1,0 +1,49 @@
+@media (max-width: 1170px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .logo {
+        padding-left: 0px;
+    }
+
+    .header {
+        width: 1024px;
+    }
+
+    .list {
+
+        margin-left: 50px;
+    }
+
+    .title__list {
+        padding-right: 0px;
+        padding-left: 200px;
+
+    }
+
+    .left__part {
+
+        width: 50%;
+
+    }
+
+    .right__part {
+        width: 50%;
+
+    }
+
+    .title__axit {
+        text-align: left;
+        color: rgb(255, 255, 255);
+        font-family: 'Raleway';
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 42px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+    }
+}
