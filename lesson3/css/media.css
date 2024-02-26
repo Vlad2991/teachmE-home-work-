@@ -573,4 +573,10 @@ padding: 29px 20px;
     border: none;
 
 }
+.reviews_block-item:nth-child(1){
+display: none;
+}
+.reviews_block-item:nth-child(3){
+    display: none;
+    }
 }
