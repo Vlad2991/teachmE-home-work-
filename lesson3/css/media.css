@@ -398,6 +398,7 @@ nav {
 }
 }
 /*********************************tabs***************/
+@media (max-width: 320px){
 .tabs__section{
     margin-top: 100px;
 }
@@ -515,6 +516,10 @@ button {
 
 }
 
+.count__left__right{
+    position: relative;
+
+}
 
 
 .pictures {
@@ -527,4 +532,45 @@ button {
 .head__text {
     margin-bottom: 79px;
     text-align: center;
+}
+.tabs__text__title{
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+.text{
+    border: 1px solid rgb(198, 203, 205);
+    
+}
+.big__text{
+padding: 29px 20px;
+}
+.little__text{
+    padding: 0px 20px 129px 20px;
+
+}
+.btn__tabs{
+    width: 100%;
+    position: absolute;
+    bottom: -1px;
+    left: 1px;
+}
+
+.picture{
+    height: 358px;
+
+}
+.feedback p{
+    border: none;
+
+}
 }

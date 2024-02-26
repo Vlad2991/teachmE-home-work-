@@ -730,11 +730,8 @@ position: relative;
     margin: 0 auto;
     
   }
-  /*************************Tabs***************************/
-  .tabs__section{
-    margin-top: 100px;
-}
-  .tabs__ {
+ /**********************tabs********************/
+ .tabs__ {
     display: flex;
 
 }
@@ -850,31 +847,19 @@ button:active {
 
 
 .image__tabs {
-  width: 100%;
-
+    width: 470px;
+    height: 505px;
 
 }
 
 
 
-.pictures {
-  height: 100%;
-   
-    background: none;
-
+.picture {
+    overflow: hidden;
+    height: 100%;
 }
 
 .head__text {
     margin-bottom: 79px;
-    text-align: center;
-}
-.tabs__text__title{
-    padding: 0px 20px 24px 29px;
-    color: rgb(0, 0, 0);
-    font-family: 'Open Sans';
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 25px;
-    letter-spacing: 0%;
     text-align: center;
 }
