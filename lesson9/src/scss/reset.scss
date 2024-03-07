@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Raleway:wght@400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+$redColor: #FF4343;
+$redHoverColor: #E71414;
+$whiteColor: #FFFFFF;
+
+
+
+@mixin font($fs, $fh, $fw){
+    font-size: $fs;
+    line-height: $fh;
+    font-weight: $fw;
+}
